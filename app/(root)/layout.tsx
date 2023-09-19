@@ -8,9 +8,6 @@ import LeftSidebar from '@/components/shared/LeftSidebar'
 import RightSidebar from '@/components/shared/RightSidebar'
 import Bottombar from '@/components/shared/Bottombar'
 
-
-
-
 export const metadata = {
     title: 'social-media',
     description: 'A next.js 13 Meta Threads Application Clone, inspired by Javascript Mastery on Youtube'
