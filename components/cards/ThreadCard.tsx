@@ -99,7 +99,7 @@ function ThreadCard({
                   alt='heart'
                   width={24}
                   height={24}
-                  className='cursor-pointer object-contain'
+                  className='cursor-pointer object-contain hover:text-blue-500'
                 />
               </div>
 
