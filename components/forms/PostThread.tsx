@@ -52,7 +52,7 @@ function PostThread({ userId }: Props) {
   return (
     <Form {...form}>
       <form
-        className='mt-8 flex flex-col justify-start gap-10'
+        className='mt-10 flex flex-col justify-start gap-10'
         onSubmit={form.handleSubmit(onSubmit)}
       >
         <FormField
@@ -61,10 +61,10 @@ function PostThread({ userId }: Props) {
           render={({ field }) => (
             <FormItem className='flex w-full flex-col gap-3'>
               <FormLabel className='text-base-semibold text-light-2'>
-                Content:
+                Content
               </FormLabel>
-              <FormControl className='no-focus border border-dark-2 bg-dark-2 text-light-1'>
-                <Textarea rows={8} {...field} />
+              <FormControl className='no-focus border border-dark-4 bg-dark-3 text-light-1'>
+                <Textarea rows={15} {...field} />
               </FormControl>
               <FormMessage />
             </FormItem>
@@ -72,7 +72,7 @@ function PostThread({ userId }: Props) {
         />
 
         <Button type='submit' className='bg-primary-500'>
-          Create Content
+          Post Thread
         </Button>
       </form>
     </Form>
